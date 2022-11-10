@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
+#include <select.h>
 #include <sys/select.h>
 #include <string.h>
 #include <sys/time.h>
